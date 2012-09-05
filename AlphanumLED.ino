@@ -215,20 +215,6 @@ void loop() {
         Serial.println(Nb4);
       
       }
-      /*if (Serial.available() > 0) {
-      Serial.println("Nombre n1\n");
-      NoByteNb1 = Serial.read();
-      Nb1 = byte(NoByteNb1);
-      Serial.println("Nombre n2");
-      NoByteNb2 = Serial.read();
-      Nb2 = byte(NoByteNb1);
-      Serial.println("Nombre n3\n");
-      NoByteNb3 = Serial.read();
-      Nb3 = byte(NoByteNb1);
-      Serial.println("Nombre n4\n");
-      NoByteNb4 = Serial.read();
-      Nb4 = byte(NoByteNb1);
-     }*/
   
   
   
@@ -741,30 +727,6 @@ void loop() {
       digitalWrite(LedF, HIGH);
       digitalWrite(LedG, LOW);
   }
-     /*Nb1--;
-     Nb2--;
-     Nb3--;
-     Nb4--;
-     
-     if (Nb1 <= 0) {
-      digitalWrite(Digit1, LOW);
-      digitalWrite(Digit2, HIGH);
-      digitalWrite(Digit3, HIGH);
-      digitalWrite(Digit4, HIGH);
-      digitalWrite(Digit5, HIGH); 
-       
-      digitalWrite(LedA, HIGH);
-      digitalWrite(LedB, HIGH);
-      digitalWrite(LedC, HIGH); // POUR UN 0
-      digitalWrite(LedD, HIGH);
-      digitalWrite(LedE, HIGH);
-      digitalWrite(LedF, HIGH);
-      digitalWrite(LedG, HIGH);
-      delay(100);
-      digitalWrite(Digit1, HIGH);
-      delay(100);
-      digitalWrite(Digit1, LOW);
-       }*/
   
      delay(1);
     
@@ -777,20 +739,4 @@ void establishContact() {
     delay(300);
     }
   }
- /* void Blinkz() {
-  digitalWrite(Digit1, HIGH);
-  digitalWrite(Digit2, LOW);
-  digitalWrite(Digit3, HIGH);
-  digitalWrite(Digit4, LOW);
-  digitalWrite(Digit5, HIGH);
-  digitalWrite(LedH, HIGH);  
-  delay(1);               // wait for a 1/2 second
-  digitalWrite(LedH, LOW);    // turn the LED off by making the voltage LOW
-  delay(1);
-  }*/
-  /*if (Serial.available() > 0) {
-    NoByteNb1 = Serial.read();
-      Serial.println(NoByteNb1);
-      Nb1 = byte(NoByteNb1);
-   }*/
 
